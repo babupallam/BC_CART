@@ -1,0 +1,61 @@
+import React, {Component } from 'react';
+import {Button, Card,Image } from 'semantic-ui-react';
+import Layout from './layout';
+
+//import shipments from '../../../ethereum/shipments';
+//import web3 from '../../../ethereum/web3';
+
+class Messages extends Component{
+  /*  onSubmit= async (event)=>{
+/*        event.preventDefault();
+        const accounts = await web3.eth.getAccounts();
+        await shipments.methods
+            .createConsignment("car",10000,1)
+            .send({
+                from: accounts[0]
+            });
+            */
+  /*  };
+    renderMessages(){
+        
+        return (
+            <Card>
+                <Card.Content>
+                    <Card.Header>Product Name</Card.Header>
+                    <Card.Meta>Seller</Card.Meta>
+                    <Card.Description>
+                        Buyer : <strong>xxxxxxxxxxxxxxxxxx</strong> interested in your item to be sold  
+                    </Card.Description>
+                </Card.Content>
+                <Card.Content extra>
+                    <div className='ui two buttons'>
+                        <Button basic color='green'>
+                        Accept
+                        </Button>
+                        <Button basic color='red'>
+                        Reject
+                        </Button>
+                    </div>
+                </Card.Content>
+            </Card>
+        );
+    }
+    
+    render(){
+        return(
+            <Card.Group>
+                {this.renderMessages()}
+            </Card.Group>
+        );
+    }
+    */
+    
+    render(){
+    	return(
+    		<h1>messages babupallam</h1>
+    	);
+    }
+    
+}
+
+export default Messages;

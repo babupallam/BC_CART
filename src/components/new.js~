@@ -1,0 +1,94 @@
+import React, {Component } from 'react';
+import {Form, Button, Input, Grid,Segment,Divider, Checkbox, Container,Image, Message } from 'semantic-ui-react';
+import Layout from '../../components/layout';
+
+//import shipments from '../../../ethereum/shipments';
+//import web3 from '../../../ethereum/web3';
+
+class PlaceNew extends Component{
+  /*  state = {
+        price :'',
+        quantity:'',
+        name:'',
+        Error:'',
+        loading:''
+    };
+    
+    onSubmit= async (event)=>{
+        event.preventDefault();
+        try{
+          this.setState({loading: true});
+          const accounts = await web3.eth.getAccounts();
+          
+          await shipments.methods
+              .createConsignment(this.state.name,parseInt(this.state.price),parseInt(this.state.quantity))
+              .send({
+                  from: accounts[1],
+                  gas:'796881'
+              });
+          }catch(err){
+              this.setState({Error: err.message});
+          }
+          this.setState({loading: false});
+    };
+    render(){
+        return(
+            <Grid textAlign='center' style={{ height: '100%' }} >
+                <Grid.Column style={{ maxWidth: 800 }}>
+                    <Segment color="red" padded="very" >
+                        <div style={{ marginTop: '20px'}}></div>
+                        <Button floated='left'>Add your product</Button>
+                        <Divider clearing/>
+                     
+                            <Form onSubmit={ this.onSubmit } error={this.state.Error}>
+                                <Form.Field>
+                                    <label>- name of the product -</label>
+                                    <Input 
+                                        placeholder="Name of the product"
+                                        value={this.state.name}
+                                        onChange={event =>this.setState({name:event.target.value})}
+                                    />
+                                </Form.Field>
+                                <Form.Field>
+                                    <label>- price -</label>
+                                    <Input 
+                                        label="wei" 
+                                        labelPosition="right" 
+                                        placeholder="Price of the product"
+                                        value={this.state.price}
+                                        onChange={event =>this.setState({price:event.target.value})}/>
+                                </Form.Field>
+                                <Form.Field>
+                                    <label>- quantity -</label>
+                                    <Input 
+                                        placeholder="Quantity"
+                                        value={this.state.quantity}
+                                        onChange={event =>this.setState({quantity:event.target.value})}
+                                    />
+                                </Form.Field>
+                                <Form.Field>
+                                    <Checkbox label='I agree to the Terms and Conditions'/>
+                                </Form.Field>                        
+                                <Message error header="Oops!" content={this.state.Error}/>
+                                <Message error header="Oops!" content={this.state.name}/>
+                                <Message error header="Oops!" content={this.state.price}/>
+                                <Message error header="Oops!" content={this.state.quantity}/>
+                                <div>
+                                    <Button type="submit"loading={this.state.loading} positive size="huge" content="Create"/>
+                                </div>
+                            </Form>                        
+                    
+                    </Segment>
+                </Grid.Column>
+            </Grid>
+        );
+    }
+    */
+    render(){
+    	return(
+    		<h1>new babupallam</h1>
+    	);
+    }
+}
+
+export default PlaceNew;
